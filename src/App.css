@@ -1,0 +1,19 @@
+.double-bg::before,
+.double-bg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.double-bg::before {
+  top: 0;
+  background-color:#27ad59; 
+  height: 20%;
+}
+
+.double-bg::after {
+  bottom: 0;
+  background-color:gainsboro;
+  height: 80%;
+}
