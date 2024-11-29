@@ -14,7 +14,7 @@ const Topbar = () => {
           </div>
           <span>kumar</span>
         </div>
-        <div className="w-1/5 flex items-center justify-between">
+        <div className="w-2/5 sm:w-1/3 md:w-1/5 flex items-center justify-between">
           <div className="py-1 px-3 border-2 border-slate-200 rounded-xl">
             <Video className="text-gray-500" />
           </div>

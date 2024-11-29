@@ -3,7 +3,7 @@ import { Smile, Plus, Mic } from "lucide-react";
 const Bottombar = () => {
   return (
     <>
-      <div className="h-16 w-full bg-gray-100 p-3 flex justify-between items-center absolute bottom-0">
+      <div className="h-16 w-full hidden  bg-gray-100 p-3 md:flex justify-between items-center absolute bottom-0">
         <Smile />
         <Plus />
         <input
